@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 75vh;
+    width: 100vw;
+    background-image: url(https://res.cloudinary.com/dk1c2ypa9/image/upload/v1712569024/netflexbg_ydkih0.jpg);
+    background-position: center center;
+    position: relative
+}
+
+.main .box {
+    opacity: 0.64;
+    height: 75vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    width: 130px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+    padding: 241px 30px;
+}
+
+.hero> :first-child {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.separation {
+    background-color: gray;
+    height: 10px;
+    position: relative;
+    bottom: 54px;
+    opacity: 0.4;
+}
+
+.btn {
+    padding: 7px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-red-top {
+    background-color: red;
+    color: white;
+}
+
+.btn-red-2 {
+    background-color: red;
+    color: white;
+    padding: 10px 35px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.btn-language {
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid white;
+
+}
+
+input {
+    padding: 17px 130px 14px 10px;
+    font-weight: 900px;
+    color: white;
+    font-size: 13px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(239, 235, 235, 0.3);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px 120px 0px;
+}
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 615px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 93px;
+    right: 88px;
+    width: 447px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 900;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 25px;
+}
+
+.separation2 {
+    background-color: gray;
+    height: 10px;
+    position: relative;
+    opacity: 0.4;
+}
+
+.second {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.image2 {
+    position: relative;
+    right: 78px;
+}
+
+section.second>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.second>div :nth-child(1) {
+    font-size: 48px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 900;
+}
+
+section.second>div :nth-child(2) {
+    font-size: 22px;
+}
+
